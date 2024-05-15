@@ -1,0 +1,112 @@
+/* Estilos generales */
+body {
+    background-image: url(src/assets/vente.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+    
+  }
+  .titlle{
+    font-size: 53px;
+    text-align: center;
+    color:rgb(92, 94, 94);
+    margin-top: 100px;
+    margin-bottom: 30px;
+
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 30px;
+    border: 1px solid #e6d9d9;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #318ef0;
+  }
+
+  .data{
+    margin-top: 80px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: antiquewhite;
+    text-align: center;
+  }
+  
+  p {
+    margin-bottom: 5px;
+    color: antiquewhite;
+    text-align: center;
+  }
+  
+  img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    text-align: center;
+    
+  }
+   /* Estilos para móviles */
+   @media (max-width: 600px) {
+    h1 {
+      font-size: 20px;
+    }
+  
+    input[type="text"] {
+      font-size: 14px;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+  
+    h2 {
+      font-size: 48px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  
+    img {
+      width: 180px;
+      height: 180px;
+    }
+  }
+  
+  
+ 
